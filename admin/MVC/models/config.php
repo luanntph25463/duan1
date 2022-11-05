@@ -5,4 +5,5 @@ define("DB_NAME","asm_du_an_mau");
 define("DB_USER","root");
 define("DB_PWD","");
 cần merge
+sao chép
 ?>
