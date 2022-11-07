@@ -62,10 +62,6 @@ class database{
         return $result->fetch(PDO::FETCH_OBJ);
     }
 
-    public function getLastId() {
-        return $this->pdo->lastInsertId();
-    }
-
     public function disconnect() {
         $this->sta=NULL;
         $this->pdo = NULL;
